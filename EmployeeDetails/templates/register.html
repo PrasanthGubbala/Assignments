@@ -1,0 +1,27 @@
+{% extends 'common.html' %}
+{% block common %}
+<form action="{% url 'save_details' %}" method="post">
+    {% csrf_token %}
+    <div class="container" style="width: 10cm">
+        <div class="col">
+          Employee Name: <input type="text" name="e1" value="{{  }}" pattern="[A-Za-z]" required maxlength="30" class="form-control" placeholder="Employee Name">
+        </div><br>
+        <div class="col">
+          Date Of Birth: <input type="date" name="e2" required id="date" class="form-control">
+        </div><br>
+        <div class="col">
+          Pincode: <input type="number" name="e3" required pattern="[0-9]" min="100000" max="999999" class="form-control" placeholder="Location">
+        </div><br>
+        <div class="col">
+          Salary: <input type="number" name="e4" required min="1000" class="form-control" placeholder="Salary">
+        </div><br>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-2">Register</button>
+        </div>
+    </div>
+</form>
+
+<script>
+document.getElementById("date").defaultValue = "2000-01-01";
+</script>
+{% endblock %}

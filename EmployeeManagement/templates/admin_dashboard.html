@@ -1,0 +1,42 @@
+{% extends 'common.html' %}
+{% block common %}
+<style>
+th{
+    width: 3cm;
+    text-align: center;
+}
+</style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="{% url 'admin' %}">Logout</a>
+    </nav>
+<h2 style="font-size: 20px;color: blue;text-align: center">DASHBOARD</h2>
+    <table align="center" border="2">
+    <tr>
+        <th>SNO</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Change Status</th>
+    </tr>
+    {% for x in users %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ x.name|capfirst }}</td>
+            <td>{{ x.email }}</td>
+            <td>{{ x.username }}</td>
+            <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary">Activate</button>
+                  <button type="button" class="btn btn-secondary">Deactivate</button>
+                  <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+
+            </td>
+        </tr>
+    {% endfor %}
+
+
+    </table>
+
+{% endblock %}

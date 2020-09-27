@@ -1,0 +1,11 @@
+{% extends 'common.html' %}
+{% block common %}
+{% include 'menu.html' %}
+Welcome page
+
+    {% if message %}
+            <div class="alert alert-success" role="alert">
+              {{ message }}
+            </div>
+    {% endif %}
+{% endblock %}

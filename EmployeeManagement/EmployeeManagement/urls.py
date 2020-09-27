@@ -20,5 +20,16 @@ from app import views
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('admin/',views.admin_dashboard,name='admin_dashboard'),
+    path('admin/',views.admin,name='admin'),
+    path('admin_login_check/',views.admin_login_check,name='admin_login_check'),
+]
+
+urlpatterns +=[
+    path('',views.welcome,name='welcome'),
+    path('signup/',views.signup,name='signup'),
+    path('save_details/',views.save_details,name='save_details'),
+    path('signin/',views.signin,name='signin'),
+    path('signin_check/',views.signin_check,name='signin_check'),
+    path('user/<str:pk>',views.user,name='user'),
+
 ]

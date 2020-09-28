@@ -2,6 +2,7 @@ from django.contrib import messages
 from django.shortcuts import render,redirect
 from .models import Employeedetails
 from datetime import datetime
+from matplotlib import pyplot as plt
 
 def dashboard(request):
     try:
@@ -14,10 +15,13 @@ def dashboard(request):
             s = x.salary
             age.append(a)
             sal.append(s)
+        # plt.plot(age, sal)
+        # plt.xlabel('Ages')
+        # plt.ylabel('Salarie')
+        # plt.title('Salary Estimation! Salary estimated by using theire ages.')
+        # graph = plt.show()
+        return render(request,'dashboard.html',{'age':age,'sal':sal})
 
-
-        return render(request,'dashboard.html')
-    
     except Employeedetails.DoesNotExist:
         return render(request,'dashboard.html',{'message':'No Details Are Fount In DataBase To Plote The Graph.'})
 

@@ -1,0 +1,13 @@
+{% extends 'common.html' %}
+{% block common %}
+{% include 'menu.html' %}
+<br><br>
+    <form action="{% url 'submit_otp' %}" method="post">
+        {% csrf_token %}
+        <div class="container" align="center">
+            <h4>Check OTP</h4><br>
+            OTP : <input type="number" name="otp" min="100000" max="999999" required placeholder="OTP"><br><br>
+            <button type="submit" value="{{ user }}" name="user">Submit</button>
+        </div>
+    </form>
+{% endblock %}

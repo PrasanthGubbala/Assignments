@@ -19,9 +19,11 @@ from django.urls import path
 from app import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    #path('admin/', admin.site.urls),
     path('',views.dashboard,name='dashboard'),
     path('register/',views.register,name='register'),
     path('save_details/',views.save_details,name='save_details'),
     path('update/',views.update,name='update'),
+    path('getdetails_from_db/',views.getdetails_from_db,name='getdetails_from_db'),
+    path('update_details/',views.update_details,name='update_details'),
 ]

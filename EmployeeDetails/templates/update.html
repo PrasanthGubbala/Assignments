@@ -1,7 +1,28 @@
 {% extends 'common.html' %}
 {% block common %}
+<br><br>
+<form action="{% url 'getdetails_from_db' %}" method="post">
+    {% csrf_token %}
+    <h4 align="center" style="color: blue">You Need To Get Your Details First</h4><br>
+    <div class="container">
+        <div class="input-group mb-3">
+          <input type="number" name="idno" required class="form-control" min="1" placeholder="Pleace Enter Your IDNO Then You Will Get Your Details" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">Employee IDNO</span>
+          </div>
+        </div>
+    </div>
+    <div class="container" align="center">
+        <button type="submit">Get Details</button>
+    </div>
+</form>
 
-    update
-
+    {% if messages %}
+      {% for x in messages %}
+          <div class="alert alert-danger" role="alert" align="center">
+              {{ x }}
+          </div>
+      {% endfor %}
+    {% endif %}
 
 {% endblock %}

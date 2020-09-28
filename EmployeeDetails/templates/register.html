@@ -1,16 +1,19 @@
 {% extends 'common.html' %}
 {% block common %}
+<div class="table-bordered">
+    <h4 align="center" style="color: blue"><u>Register Here</u></h4>
+
 <form action="{% url 'save_details' %}" method="post">
     {% csrf_token %}
     <div class="container" style="width: 10cm">
         <div class="col">
-          Employee Name: <input type="text" name="e1" value="{{  }}" pattern="[A-Za-z]" required maxlength="30" class="form-control" placeholder="Employee Name">
+          Employee Name: <input type="text" name="e1" pattern="[a-zA-Z]+" required maxlength="30" class="form-control" placeholder="Employee Name">
         </div><br>
         <div class="col">
           Date Of Birth: <input type="date" name="e2" required id="date" class="form-control">
         </div><br>
         <div class="col">
-          Pincode: <input type="number" name="e3" required pattern="[0-9]" min="100000" max="999999" class="form-control" placeholder="Location">
+          Pincode: <input type="number" name="e3" required min="100000" max="999999" pattern="[0-9]" class="form-control" placeholder="Location">
         </div><br>
         <div class="col">
           Salary: <input type="number" name="e4" required min="1000" class="form-control" placeholder="Salary">
@@ -20,7 +23,7 @@
         </div>
     </div>
 </form>
-
+</div>
 <script>
 document.getElementById("date").defaultValue = "2000-01-01";
 </script>

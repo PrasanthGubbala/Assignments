@@ -4,4 +4,17 @@
     Welcome To Dashboard
 
 
+
+    {% if message %}
+        <div class="alert alert-success" role="alert" align="center">
+          {{ message }}
+        </div>
+    {% endif %}
+    {% if messages %}
+      {% for x in messages %}
+          <div class="alert alert-success" role="alert" align="center">
+              {{ x }}
+          </div>
+      {% endfor %}
+    {% endif %}
 {% endblock %}

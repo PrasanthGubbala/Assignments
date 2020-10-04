@@ -1,5 +1,7 @@
 {% extends 'common.html' %}
 {% block common %}
+
+
 <style>
 th{
     width: 3cm;
@@ -29,30 +31,29 @@ th{
                 <div class="btn-group" role="group" aria-label="Basic example">
                     <form action="{% url 'change_to_active' %}" method="post">
                         {% csrf_token %}
-                        <button type="submit" value="{{ x.username }}" name="b1" class="btn btn-primary">Activate</button>
+                        <button type="submit" value="{{ x.username }}" name="b1" class="btn btn-primary mr-1 mb-2">Activate</button>
                     </form>
                     <form action="{% url 'change_to_deactive' %}" method="post">
                         {% csrf_token %}
-                        <button type="submit" value="{{ x.username }}" name="b2" class="btn btn-secondary">Deactivate</button>
+                        <button type="submit" value="{{ x.username }}" name="b2" class="btn btn-secondary mr-1 mb-2">Deactivate</button>
                     </form>
-                    <form action="{% url 'change_to_delete' %}" method="post">
-                        {% csrf_token %}
-                        <button type="submit" value="{{ x.username }}" name="b3" class="btn btn-danger">Delete</button>
-                    </form>
-                </div>
 
+                    <form action="{% url 'change_to_delete' %}" method="post" onsubmit="return confirm('Do you want to delete the data press OK')">
+                        {% csrf_token %}
+                        <button type="submit" value="{{ x.username }}" name="b3" class="btn btn-danger mr-1 mb-2">Delete</button>
+                    </form>
+
+                </div>
             </td>
         </tr>
     {% endfor %}
     <tr>
         <th colspan="4" align="center">Total</th>
-        <td align="center">{{ total }}</td>
+        <th align="center">{{ total }}</th>
     </tr>
 
     {% if message %}
         <tr><td colspan="5" align="center" style="background-color: red;color: white">{{ message }}</td></tr>
     {% endif %}
-
     </table>
-
 {% endblock %}

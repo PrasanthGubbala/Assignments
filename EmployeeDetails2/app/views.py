@@ -4,6 +4,7 @@ from .models import EmployeeDetails,Admin
 from django.core.mail import send_mail
 from EmployeeDetails2 import settings
 import random
+import re
 
 #admin phase
 def admin(request):
@@ -50,11 +51,14 @@ def change_to_delete(request):
         b3 = request.POST.get('b3')
         user = EmployeeDetails.objects.get(username=b3)
         user.delete()
-        users = EmployeeDetails.objects.all()
-        total = users.count()
-        return render(request, 'admin_dashboard.html', {'users': users,'total':total})
+        return redirect('after_delete')
     except EmployeeDetails.DoesNotExist:
         return render(request,'admin_dashboard.html',{'message':'No Details Are Available'})
+
+def after_delete(request):
+    users = EmployeeDetails.objects.all()
+    total = users.count()
+    return render(request, 'admin_dashboard.html', {'users': users, 'total': total})
 
 
 #user phase
@@ -99,7 +103,7 @@ def signin_check(request):
                 messages.error(request, 'Admin Not yet Approved')
                 return redirect('welcome')
         except EmployeeDetails.DoesNotExist:
-            messages.error(request, 'Invalid Username or Password')
+            messages.error(request, 'Your account has been deactivated by Admin')
             return redirect('signin')
     else:
         request.session["app_status"] = False
@@ -108,7 +112,18 @@ def signin_check(request):
 
 def user(request,pk):
     res = EmployeeDetails.objects.get(username=pk)
-    return render(request,'user.html',{'user':res})
+    all = EmployeeDetails.objects.all()
+    return render(request,'user.html',{'user':res,'all':all.count()})
+
+def user_profile(request):
+    pk = request.GET.get('pk')
+    return redirect('user',pk = pk)
+
+def password(request):
+    user = request.session['app_username']
+    user = EmployeeDetails.objects.get(username=user)
+    print(user)
+    return render(request,'password.html',{'user':user})
 
 def change_password(request):
     p1 = request.POST.get('p1')
@@ -169,3 +184,4 @@ def save_new_password(request):
     else:
         messages.error(request, "did'nt match password! you are trying to insert different password")
         return render(request,'set_new_password.html',{'user':user})
+

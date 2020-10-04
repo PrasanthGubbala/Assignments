@@ -25,6 +25,7 @@ urlpatterns = [
     path('change_to_active/',views.change_to_active,name='change_to_active'),
     path('change_to_deactive/',views.change_to_deactive,name='change_to_deactive'),
     path('change_to_delete/',views.change_to_delete,name='change_to_delete'),
+    path('after_delete/',views.after_delete,name='after_delete'),
 
  ]
 
@@ -35,6 +36,8 @@ urlpatterns +=[
     path('save_details/',views.save_details,name='save_details'),
     path('signin/',views.signin,name='signin'),
     path('signin_check/',views.signin_check,name='signin_check'),
+    path('user_profile/',views.user_profile,name='user_profile'),
+    path('password/',views.password,name='password'),
     path('user/<str:pk>',views.user,name='user'),
     path('change_password/',views.change_password,name='change_password'),
 

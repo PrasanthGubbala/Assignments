@@ -8,5 +8,5 @@ class EmployeeDetails(models.Model):
     status = models.CharField(max_length=10,default='deactive')
 
 class Admin(models.Model):
-    username = models.CharField(max_length=30)
+    username = models.CharField(max_length=30,primary_key=True)
     password = models.CharField(max_length=20)

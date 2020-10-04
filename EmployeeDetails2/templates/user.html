@@ -1,25 +1,23 @@
 {% extends 'common.html' %}
 {% block common %}
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="{% url 'signin_check' %}">Logout</a>
-    </nav>
-
-
+    {% include 'user_menu.html' %}
     <h2 style="text-align: center;color: blue;font-size: 25px">Welcome: {{ user.name|capfirst }}</h2>
-    <form action="{% url 'change_password' %}" method="post">
-    {% csrf_token %}
-        <div class="container" align="center">
-        Change Password: <input type="password" name="p1" required placeholder="New Password"><br><br>
-        Confirm Password: <input type="password" name="p2" required placeholder="Confirm"><br><br>
-            <button type="submit" value="{{ user.username }}" name="un" class="btn-default">Change</button>
-        </div>
-    </form>
+    <br><br>
+    <div class="container">
+        <h5 align="center">Name: <span style="color: blue;padding: 5px">{{ user.name|capfirst }}</span> </h5>
+        <h5 align="center">Username: <span  style="color: blue;padding: 5px">{{ user.username }}</span></h5>
+        <h5 align="center">Email: <span style="color: blue;padding: 5px">{{ user.email }}</span></h5>
+        <h5 align="center">User Status: <span style="color: blue;padding: 5px">{{ user.status }}</span></h5>
+        <h5 align="center">total no of users registered upto now: <span style="color: blue;padding: 5px">{{ all }}</span></h5>
+
+    </div>
+
+
     {% if message %}
         <div class="alert alert-success" role="alert" align="center">
            {{ message }}
         </div>
     {% endif %}
-
     {% if messages %}
         {% for x in messages %}
             <div class="alert alert-danger" role="alert" align="center">
@@ -29,3 +27,4 @@
     {% endif %}
 
 {% endblock %}
+

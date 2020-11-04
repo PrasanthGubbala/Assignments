@@ -1,5 +1,6 @@
-{% extends 'common.html' %}
-{% block common %}
+{% extends 'common_user.html' %}
+{% block common_user %}
+<br><br>
 <div class="table-bordered">
     <h4 align="center" style="color: blue"><u>Update Your Details Here</u></h4>
 
@@ -18,11 +19,13 @@
         <div class="col">
           Salary: <input type="number" name="e4" value="{{ user.salary }}" required min="1000" class="form-control" placeholder="Salary">
         </div><br>
+        <div class="col">
+          Password: <input type="password" name="e5" value="{{ user.password }}" required class="form-control" placeholder="Password">
+        </div><br>
         <div class="col-auto">
           <button type="submit" value="{{ user.idno }}" name="idno" class="btn btn-primary mb-2">Update Details</button>
         </div>
     </div>
 </form>
 </div>
-
 {% endblock %}

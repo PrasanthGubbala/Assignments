@@ -18,12 +18,24 @@
         <div class="col">
           Salary: <input type="number" name="e4" required min="1000" class="form-control" placeholder="Salary">
         </div><br>
+        <div class="col">
+          Password: <input type="password" name="e5" required class="form-control" placeholder="Password">
+        </div><br>
         <div class="col-auto">
           <button type="submit" class="btn btn-primary mb-2">Register</button>
         </div>
     </div>
 </form>
 </div>
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-warning" role="alert" align="center">
+          {{ x }}
+        </div>
+    {% endfor %}
+{% endif %}
+
+
 <script>
 document.getElementById("date").defaultValue = "2000-01-01";
 </script>

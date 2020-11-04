@@ -1,0 +1,13 @@
+{% extends 'common_user.html' %}
+{% block common_user %}
+    <br><br><br>
+    <div class="container" style="text-align: center;font-size: 30px">Welcome: <span style="color: blue">{{ user.name|capfirst }}</span></div>
+    <br><br>
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-success" role="alert" align="center">
+          {{ x }}
+        </div>
+    {% endfor %}
+{% endif %}
+{% endblock %}

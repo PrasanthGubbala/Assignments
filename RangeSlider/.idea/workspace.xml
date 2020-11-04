@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d84491-741f-4c8a-be6f-f67aaac50bb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/common_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/dummy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/common.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/update_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/update_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Organization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Organization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Organization/app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Organization/app/serializer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +35,11 @@
     <session id="-1011547976">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -88,13 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="223">
+              <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -164,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,12 +194,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -243,8 +257,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18299595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18623482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -274,6 +289,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/rangeslider.html" />
     <entry file="file://$PROJECT_DIR$/RangeSlider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -301,25 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/rangeslider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/slider.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="223">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>

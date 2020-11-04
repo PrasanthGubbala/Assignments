@@ -1,0 +1,35 @@
+{% extends 'common.html' %}
+{% block common %}
+    <br>
+<div class="container" style="text-align: center">
+    <span style="color: blue;font-size: 25px"><u>User Login</u></span><br><br>
+<form action="{% url 'login_check' %}" method="post">
+    {% csrf_token %}
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="text" required name="l1" placeholder="Username" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" required name="l2" placeholder="Password" id="exampleInputPassword1">
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-danger" role="alert" align="center">
+          {{ x }}
+        </div>
+    {% endfor %}
+{% endif %}
+{% if message %}
+    <div class="alert alert-success" role="alert" align="center">
+      {{ message }}
+    </div>
+{% endif %}
+
+
+</div>
+{% endblock %}

@@ -8,10 +8,12 @@ class OrganizationSerializer(serializers.HyperlinkedModelSerializer):
         model = Organization
         fields = ('id','url','company_name','city','sector','contact')
 
+
 class DepartmentSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Departments
         fields = ('id','url','organization','department')
+
 
 class DesignationSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:

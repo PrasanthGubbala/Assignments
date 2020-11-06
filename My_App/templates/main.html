@@ -1,0 +1,128 @@
+{% load static %}
+<html lang="en" class="js-focus-visible" data-js-focus-visible="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibek Gupta</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+      #links a {
+        background: white;
+        border: 1px solid white;
+        width: 100%;
+        padding: 1rem 2rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        border-radius: 6px;
+        transition: ease-in-out 0.2s;
+      }
+
+      #links a:hover {
+        background: none;
+        color: white;
+      }
+
+      #social a {
+        height: 32px;
+        width: 32px;
+        margin: 0 1rem;
+      }
+
+      #social a:hover {
+        height: 36px;
+        width: 36px;
+        transition: ease-in-out 0.2s;
+      }
+    </style>
+    <style type="text/css">
+        @font-face {
+          font-weight: 400;
+          font-style:  normal;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+        }
+        @font-face {
+          font-weight: 400;
+          font-style:  italic;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+        }
+
+        @font-face {
+          font-weight: 500;
+          font-style:  normal;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+        }
+        @font-face {
+          font-weight: 500;
+          font-style:  italic;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+        }
+
+        @font-face {
+          font-weight: 700;
+          font-style:  normal;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+        }
+        @font-face {
+          font-weight: 700;
+          font-style:  italic;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+        }
+
+        @font-face {
+          font-weight: 900;
+          font-style:  normal;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+        }
+        @font-face {
+          font-weight: 900;
+          font-style:  italic;
+          font-family: 'Inter-Loom';
+
+          src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+        }
+    </style>
+</head>
+<body bgcolor="#6495ed">
+   <div class="mx-auto max-w-2xl min-h-screen flex flex-col items-center py-8">
+     <div class="flex flex-col items-center" id="profile">
+       <img class="w-24 h-24 rounded-full shadow-md" id="avatar" src="https://avatars1.githubusercontent.com/u/35547667?s=400&amp">
+       <h1 class="text-md text-white mt-2 font-semibold" id="name">Bibek Gupta</h1>
+     </div>
+     <div class="flex flex-col space-between w-full px-8 text-center my-8" id="links">
+         <a href="https://www.linkedin.com/in/bbeklinker">LinkedIn</a>
+         <a href="https://github.com/bbekgit">GitHub</a>
+         <a href="https://bibekgupta.com/">Portfolio</a>
+         <a href="https://www.hackerrank.com/bbekgupta">HackerRank</a>
+         <a href="https://leetcode.com/bbekgupta/">Let Code</a>
+     </div>
+     <div id="social" class="flex w-1/2 justify-evenly">
+         <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/bbektwit?lang=en">
+             <svg class="svg-inline--fa fa-twitter fa-w-16 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                 <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+             </svg><!-- <i class="fab fa-fw fa-twitter"></i> -->
+         </a>
+         <a href="https://www.facebook.com/Bibekbabu7/">
+            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Facebook icon</title>
+                <path d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"></path>
+            </svg>
+         </a>
+     </div>
+   </div>
+</body>
+<loom-container id="lo-engage-ext-container"><div></div><loom-shadow classname="resolved"></loom-shadow></loom-container>
+</html>

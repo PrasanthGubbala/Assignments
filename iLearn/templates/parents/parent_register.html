@@ -1,0 +1,45 @@
+{% extends 'common.html' %}
+{% block common %}
+<br><br>
+    <div align="center" style="color: blue;font-size: 30px"><u>Parent Registration</u></div><br>
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-warning" role="alert" align="center">{{ x }}</div>
+    {% endfor %}
+{% endif %}
+
+    <form action="{% url 'save_parent_details' %}" method="post">
+    {% csrf_token %}
+        <div style="width: 1000px;padding-left: 400px;padding-right: 100px">
+            <div class="col">
+              <input type="text" name="t1" class="form-control" placeholder="Full name" required>
+            </div><br>
+
+            <div class="col">
+              <input type="text" name="t2" class="form-control" placeholder="Relation" required>
+            </div><br>
+
+            <div class="col">
+              <input type="number" name="t3" class="form-control" placeholder="Phone" required min="6000000000" max="9999999999">
+            </div><br>
+
+            <div class="col">
+              <input type="email" name="t4" class="form-control" placeholder="Email" required>
+            </div><br>
+
+            <div class="col">
+              <input type="password" name="t5" class="form-control" placeholder="Password" required>
+            </div><br>
+
+            <div class="col">
+              <input type="password" name="t6" class="form-control" placeholder="Confirm Password" required>
+            </div><br><br>
+
+            <div class="col">
+                <button type="submit" class="btn-primary" style="width: 150px">Register</button>
+            </div><br>
+        </div>
+    </form>
+
+
+{% endblock %}

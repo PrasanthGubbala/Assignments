@@ -2,29 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="411edcca-80d3-4ee4-9490-1987aa26a036" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/common_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Covid_Analasys/dummy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/images/Slide 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/images/slide 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/images/slide 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/dummy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/schedule_class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/take_attendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/student_progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_attendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeDetails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeDetails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeDetails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeDetails/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dummy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/update_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/update_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Organization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Organization/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Organization/app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Organization/app/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RangeSlider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeSlider/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,37 +76,37 @@
     <session id="8299562">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="494" />
-          <entry key="py" value="870" />
+          <entry key="py" value="913" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="494" />
-          <entry key="Python" value="870" />
+          <entry key="Python" value="913" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="app_employeedetails" value="1" />
+          <entry key="app_employeedetails" value="2" />
           <entry key="html" value="11" />
-          <entry key="py" value="9" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="1" />
+          <entry key="Database Element" value="2" />
           <entry key="HTML" value="11" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -104,32 +114,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+        <entry file="file://$PROJECT_DIR$/EmployeeDetails/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="300">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-              <folding>
-                <element signature="n#if#0;n#!!top" />
-                <element signature="n#if#1;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/update_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <entry file="das://1f17d72e-5ef3-48a3-8900-c327acff280e/schema/main/table/app_employeedetails">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -137,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="300">
               <caret line="12" column="14" selection-start-line="12" selection-end-line="12" selection-end-column="14" />
               <folding>
                 <element signature="n#if#0;n#!!top" />
@@ -176,24 +182,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="das://1f17d72e-5ef3-48a3-8900-c327acff280e/schema/main/table/app_employeedetails">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -218,9 +206,9 @@
         <option value="$PROJECT_DIR$/templates/common_user.html" />
         <option value="$PROJECT_DIR$/templates/user.html" />
         <option value="$PROJECT_DIR$/templates/update_details.html" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/../../../../python/python class/rangeslider/db.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
       </list>
     </option>
   </component>
@@ -363,7 +351,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16761133" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17246963" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,7 +364,7 @@
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
@@ -422,31 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmployeeDetails/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../python/python class/rangeslider/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -468,9 +435,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="300">
           <caret line="12" column="14" selection-start-line="12" selection-end-line="12" selection-end-column="14" />
           <folding>
             <element signature="n#if#0;n#!!top" />
@@ -502,10 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
+    <entry file="file://$PROJECT_DIR$/EmployeeDetails/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="300">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -513,6 +494,13 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>

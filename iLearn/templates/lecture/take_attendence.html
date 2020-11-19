@@ -1,0 +1,41 @@
+{% extends 'lecture/lecture_common.html' %}
+{% block common %}<br><br><br>
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-info" role="alert" align="center">{{ x }}</div>
+    {% endfor %}
+{% endif %}
+<table>
+    <tr>
+        <th>
+            <img src="https://images.theconversation.com/files/270402/original/file-20190423-175539-1de29q2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip">
+        </th>
+        <th>
+            <div align="center" style="width: 400px">
+                <form action="{% url 'save_attendence' %}" method="post">
+                    {% csrf_token %}
+                    <div class="col">
+                      <input type="number" name="t1" required class="form-control" placeholder="Student-ID">
+                    </div><br>
+
+                    <div class="col">
+                      <input type="number" name="t2" required class="form-control" placeholder="Class-ID">
+                    </div><br>
+
+                    <div class="col">
+                      <input type="date" name="t3" required class="form-control" placeholder="Date">
+                    </div><br>
+
+                    <div class="col">
+                        <button type="submit" class="form-control btn-primary" style="width: 150px">Save</button>
+                    </div><br>
+                </form>
+            </div>
+        </th>
+    </tr>
+</table>
+
+
+
+
+{% endblock %}

@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30963eb5-aa29-4491-8eb1-d5575d7fc362" name="Default Changelist" comment="" />
+    <list default="true" id="30963eb5-aa29-4491-8eb1-d5575d7fc362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dummy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/dummy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/schedule_class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/take_attendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/student_progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_attendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid_analasys.db" beforeDir="false" afterPath="$PROJECT_DIR$/covid_analasys.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +42,9 @@
     <SUITE FILE_PATH="coverage/Covid_Analasys$detail.coverage" NAME="detail Coverage Results" MODIFIED="1604645551509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Covid_Analasys$get_detail.coverage" NAME="get_detail Coverage Results" MODIFIED="1604990668300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Covid_Analasys$dummy.coverage" NAME="dummy Coverage Results" MODIFIED="1605258457774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Covid_Analasys$covid_api.coverage" NAME="covid_api Coverage Results" MODIFIED="1605260623466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Covid_Analasys$covid_api.coverage" NAME="covid_api Coverage Results" MODIFIED="1605616579916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Covid_Analasys$update.coverage" NAME="update Coverage Results" MODIFIED="1605259913242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Covid_Analasys$dummy__1_.coverage" NAME="dummy (1) Coverage Results" MODIFIED="1605617742517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Covid_Analasys$register.coverage" NAME="register Coverage Results" MODIFIED="1604992082562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -50,39 +81,39 @@
     <session id="1292427550">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="patients" value="7" />
-          <entry key="py" value="13" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="7" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="py" value="5861" />
+          <entry key="py" value="5999" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="5859" />
+          <entry key="Python" value="5997" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
@@ -94,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/create_table.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -102,10 +133,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/covid_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="212" selection-start-line="212" selection-end-line="212" />
+            <state relative-caret-position="175">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#556#2780#0" />
+                <element signature="e#2880#5836#0" />
+                <element signature="e#2952#5813#0" />
+                <element signature="e#2980#3649#0" />
+                <element signature="e#5864#6047#0" />
               </folding>
             </state>
           </provider>
@@ -114,11 +150,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dummy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -149,13 +194,13 @@
       <list>
         <option value="$PROJECT_DIR$/dummy2.py" />
         <option value="$PROJECT_DIR$/detail.py" />
-        <option value="$PROJECT_DIR$/create_table.py" />
         <option value="$PROJECT_DIR$/get_detail.py" />
         <option value="$PROJECT_DIR$/register.py" />
         <option value="$PROJECT_DIR$/details.py" />
-        <option value="$PROJECT_DIR$/dummy.py" />
         <option value="$PROJECT_DIR$/update.py" />
+        <option value="$PROJECT_DIR$/create_table.py" />
         <option value="$PROJECT_DIR$/covid_api.py" />
+        <option value="$PROJECT_DIR$/dummy.py" />
       </list>
     </option>
   </component>
@@ -200,7 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,6 +256,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.covid_api">
+  <component name="RunManager" selected="Python.dummy (1)">
     <configuration name="covid_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Covid_Analasys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,6 +301,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dummy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Covid_Analasys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dummy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dummy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Covid_Analasys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,28 +337,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\Python\Real Time Project\GitHub Repository\Assignments\Covid_Analasys\update.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_detail" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Covid_Analasys" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_detail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,17 +392,17 @@
     <list>
       <item itemvalue="Python.register" />
       <item itemvalue="Python.dummy" />
-      <item itemvalue="Python.get_detail" />
       <item itemvalue="Python.covid_api" />
       <item itemvalue="Python.update" />
+      <item itemvalue="Python.dummy (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dummy (1)" />
         <item itemvalue="Python.covid_api" />
         <item itemvalue="Python.update" />
         <item itemvalue="Python.dummy" />
         <item itemvalue="Python.register" />
-        <item itemvalue="Python.get_detail" />
       </list>
     </recent_temporary>
   </component>
@@ -376,13 +421,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1271255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13036437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24939272" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.88454705" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25754884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +443,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32955465" />
       <window_info anchor="right" id="Database" order="4" weight="0.32955465" />
     </layout>
     <layout-to-restore>
@@ -439,25 +485,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dummy2.py" />
     <entry file="file://$PROJECT_DIR$/get_detail.py" />
+    <entry file="file://$PROJECT_DIR$/update.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="1474" column="8" selection-start-line="1474" selection-start-column="8" selection-end-line="1474" selection-end-column="8" />
+          <caret line="1999" column="8" selection-start-line="1999" selection-start-column="8" selection-end-line="1999" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update.py" />
     <entry file="file://$PROJECT_DIR$/create_table.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/details.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="275">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
@@ -471,12 +517,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dummy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/covid_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="212" selection-start-line="212" selection-end-line="212" />
+        <state relative-caret-position="175">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#556#2780#0" />
+            <element signature="e#2880#5836#0" />
+            <element signature="e#2952#5813#0" />
+            <element signature="e#2980#3649#0" />
+            <element signature="e#5864#6047#0" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,31 @@
+{% extends 'students/student_common.html' %}
+{% block common %}
+    <style>
+    th{
+        width: 200px;
+        text-align: center;
+    }
+</style>
+    <br>
+<table align="center" border="2">
+<tr><th colspan="4" style="font-size: 20px">Your Attendence</th></tr>
+<tr>
+    <th>Sno</th>
+    <th>Subject</th>
+    <th>Date</th>
+    <th>Status</th>
+</tr>
+{% for x in data %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ x.class_id }}</td>
+        <td>{{ x.date }}</td>
+        <td>Attended</td>
+    </tr>
+{% endfor %}
+
+</table>
+
+
+
+{% endblock %}

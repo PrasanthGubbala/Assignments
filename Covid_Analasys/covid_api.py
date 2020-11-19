@@ -5,7 +5,6 @@ from datetime import datetime
 import sqlite3 as sql
 import tkinter as tk
 from tkinter import ttk
-import update
 
 # here you can register
 

@@ -1,0 +1,27 @@
+{% extends 'lecture/lecture_common.html' %}
+{% block common %}<br><br><br>
+  <div class="row" align="center">
+    <div class="col-sm-4 col-xs-12 avatar">
+
+{#      <img src="https://bootdey.com/img/Content/avatar/avatar7.png" class="img-thumbnail" alt="">#}
+
+      <i class='far fa-user plain' style='font-size:200px'></i><br>
+      <p>{{ data.name|capfirst }}</p>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+        <div class="icons col-xs-12">
+            <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-user"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-bookmark"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-refresh"></span></a>
+            <a href="#"><span class="glyphicon glyphicon-trash"></span></a>
+        </div>
+        <div class="col-xs-12 content">
+            <h2>{{ data.name|upper }}</h2>
+            <p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research. Education frequently takes place under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy.</p>
+            <p>Formal education is commonly divided formally into such stages as preschool or kindergarten, primary school, secondary school and then college, university, or apprenticeship.</p>
+        </div>
+    </div>
+  </div>
+
+{% endblock %}

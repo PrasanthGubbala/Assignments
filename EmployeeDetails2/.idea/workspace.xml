@@ -2,31 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697edae4-eb30-40a3-8989-bb6162d4675b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/common_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Covid_Analasys/dummy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/images/Slide 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/images/slide 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/images/slide 3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/dummy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/lecture_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/schedule_class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/lecture/take_attendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/parent_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/parents/student_progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_attendence.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/dummy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/update_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/update_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeDetails2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeDetails2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Organization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Organization/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Organization/app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Organization/app/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RangeSlider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeSlider/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,15 +81,15 @@
     <session id="-542647847">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="6" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmployeeDetails2/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="3225">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
               <folding>
                 <element signature="e#317#341#0" expanded="true" />
               </folding>
@@ -135,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmployeeDetails2/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="1050">
               <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding>
                 <element signature="e#642#674#0" expanded="true" />
@@ -148,7 +155,7 @@
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
-              <caret line="170" column="44" lean-forward="true" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+              <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1601786900512" expanded="true" signature="1734:2215" ph="..." />
@@ -179,7 +186,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/admin_dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="800">
               <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
               <folding>
                 <element signature="n#if#0;n#!!top" />
@@ -284,7 +291,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -407,9 +417,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17489879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17489879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -580,36 +589,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EmployeeDetails2/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        <state relative-caret-position="3225">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
           <folding>
             <element signature="e#317#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://8c9d7a8b-4283-4943-bda6-bd33adafa1e3/schema/main/table/app_employeedetails">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_dashboard.html">
+    <entry file="file://$PROJECT_DIR$/EmployeeDetails2/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="1050">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding>
-            <element signature="n#if#0;n#!!top" />
+            <element signature="e#642#674#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -621,20 +616,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmployeeDetails2/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="1025">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
-            <element signature="e#642#674#0" expanded="true" />
+            <element signature="n#if#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://8c9d7a8b-4283-4943-bda6-bd33adafa1e3/schema/main/table/app_employeedetails">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="170" column="44" lean-forward="true" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
+          <caret line="170" column="44" selection-start-line="170" selection-start-column="44" selection-end-line="170" selection-end-column="44" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1601786900512" expanded="true" signature="1734:2215" ph="..." />

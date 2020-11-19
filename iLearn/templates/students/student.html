@@ -1,0 +1,37 @@
+{% extends 'common.html' %}
+{% block common %}
+<br><br>
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-info" role="alert" align="center">{{ x }}</div>
+    {% endfor %}
+{% endif %}
+{% if error %}
+    <div class="alert alert-info" role="alert" align="center">{{ error }}</div>
+{% endif %}
+
+    <br>
+    <div align="center" style="color: blue;font-size: 30px"><u>Student Portal</u></div><br>
+
+    <form action="{% url 'student_login_check' %}" method="post">
+    {% csrf_token %}
+        <div style="width: 1000px;padding-left: 400px;padding-right: 100px">
+            <div class="col">
+              <input type="number" name="t1" class="form-control" placeholder="ID number" required>
+            </div><br><br>
+
+            <div class="col">
+              <input type="password" name="t2" class="form-control" placeholder="Password" required>
+            </div><br><br>
+            <div class="col">
+                <button type="submit" class="btn-primary" style="width: 150px">Sign in</button>
+                <span style="padding-left: 30px">
+                    <u>
+                        <a href="{% url 'student_register' %}">New User ? Register</a>
+                    </u>
+                </span>
+            </div><br>
+        </div>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,36 @@
+{% extends 'lecture/lecture_common.html' %}
+{% block common %}
+<div align="center" style="font-size: 30px;color: blue"><u>Schedule New Class</u></div><br>
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-success" role="alert" align="center">{{ x }}</div>
+    {% endfor %}
+{% endif %}
+
+    <form action="{% url 'save_class_details' %}" method="post">
+    {% csrf_token %}
+        <div style="width: 1000px;padding-left: 400px;padding-right: 100px">
+            <div class="col">
+              <input type="text" name="t1" class="form-control" placeholder="Subject" required>
+            </div><br>
+
+            <div class="col">
+              <input type="hidden" name="t2" value="{{ id }}" class="form-control" required>
+            </div><br>
+
+            <div class="col">
+              <input type="time" name="t3" class="form-control" placeholder="Class Time" required>
+            </div><br>
+
+            <div class="col">
+              <input type="text" name="t4" class="form-control" placeholder="Status" required>
+            </div><br>
+
+            <div class="col">
+                <button type="submit" class="btn-primary" style="width: 150px">Schedule</button>
+            </div><br>
+        </div>
+    </form>
+
+
+{% endblock %}

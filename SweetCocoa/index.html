@@ -1,0 +1,244 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        #image{
+          border-radius: 50%;
+        }
+        footer {
+          text-align: center;
+          padding: 3px;
+          background-color: #111111;
+          color: white;
+        }
+    </style>
+    <style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+    <style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Sweet Cocoa</title>
+  </head>
+  <body>
+    <div align="center" style="background-color: lightpink">
+        <img id="image" alt="Avatar" height="100px" src="https://static.wixstatic.com/media/8718ae_cb57dec42bab45cea6dc242599355786~mv2.png/v1/fill/w_120,h_135,al_c,q_85,usm_0.66_1.00_0.01/Screen%20Shot%202020-02-02%20at%2010_11_50%20PM_pn.webp"><br>
+    </div>
+    <hr>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about_us.html">About-us</a>
+      <a href="menu.html">Menu</a>
+      <a href="promotions.html">Promotions</a>
+      <a href="place_order.html">Place-Order</a>
+      <a href="contact_us.html">Contact-us</a>
+      <a href="academic_h_r.html">Academic honesty&references</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+    <div class="slideshow-container" align="center">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img style="width: 600px;height: 350px" src="https://static.wixstatic.com/media/8718ae_4223d629513e4626b322852b45a8c8de~mv2.jpg/v1/fill/w_660,h_708,al_c,q_85/8718ae_4223d629513e4626b322852b45a8c8de~mv2.webp" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img style="width: 600px;height: 350px" src="https://static.wixstatic.com/media/8718ae_44e745f0dd27407a95a37b23dd4b3b5a~mv2.png/v1/fill/w_560,h_600,al_c,lg_1,q_85/8718ae_44e745f0dd27407a95a37b23dd4b3b5a~mv2.webp" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img style="width: 600px;height: 350px" src="https://static.wixstatic.com/media/8718ae_2d8f85c4de0e40ebaf766263d1254eb8~mv2.jpg/v1/fill/w_675,h_724,al_c,q_85/8718ae_2d8f85c4de0e40ebaf766263d1254eb8~mv2.webp" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img style="width: 600px;height: 350px" src="https://static.wixstatic.com/media/8718ae_6e12dafda64c4c58b83761a7fd1ed848~mv2.jpg/v1/fill/w_640,h_686,al_c,q_85/8718ae_6e12dafda64c4c58b83761a7fd1ed848~mv2.webp" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="container row" align="center" style="padding-left: 230px">
+        <img style="width: 220px;height: 200px;padding-right:40px" src="https://static.wixstatic.com/media/8718ae_53538fb4d3a44ba480e03511ebd41651~mv2.jpg/v1/fill/w_330,h_330,al_c,q_80,usm_0.66_1.00_0.01/8718ae_53538fb4d3a44ba480e03511ebd41651~mv2.webp">
+        <img style="width: 220px;height: 200px;padding-right:40px" src="https://static.wixstatic.com/media/8718ae_699c33b9396340229f171d15098cb60a~mv2.jpg/v1/fill/w_330,h_330,al_c,q_80,usm_0.66_1.00_0.01/8718ae_699c33b9396340229f171d15098cb60a~mv2.webp">
+        <img style="width: 220px;height: 200px;padding-right:40px" src="https://static.wixstatic.com/media/8718ae_6e12dafda64c4c58b83761a7fd1ed848~mv2.jpg/v1/fill/w_330,h_330,al_c,q_80,usm_0.66_1.00_0.01/8718ae_6e12dafda64c4c58b83761a7fd1ed848~mv2.webp">
+        <img style="width: 220px;height: 200px;padding-right:40px" src="https://static.wixstatic.com/media/8718ae_53538fb4d3a44ba480e03511ebd41651~mv2.jpg/v1/fill/w_330,h_330,al_c,q_80,usm_0.66_1.00_0.01/8718ae_53538fb4d3a44ba480e03511ebd41651~mv2.webp">
+
+    </div>
+
+
+
+    <footer>
+      <p>
+          Copy right ©2020, sweetcocoa.com, Maryam Surour Almarar and H00442756. HCT
+      </p>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+

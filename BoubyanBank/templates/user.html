@@ -1,0 +1,14 @@
+{% extends 'user_common.html' %}
+{% block common %}
+    {% load static %}
+    <br><br><br>
+    {% if messages %}
+        {% for x in messages %}
+            <div class="alert alert-primary" role="alert" align="center">
+              {{ x }}
+            </div>
+        {% endfor %}
+    {% endif %}
+    <img src="{% static 'images/capturing.jpg' %}" width="100%">
+
+{% endblock %}

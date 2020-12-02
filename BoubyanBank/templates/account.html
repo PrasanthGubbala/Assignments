@@ -1,0 +1,26 @@
+{% extends 'user_common.html' %}
+{% block common %}
+    {% load static %}
+    <br><br><br>
+    <div class="container" style="width: 500px">
+    <h2 style="text-align: center;color: blue;font-size: 30px">Transfer Money</h2><br>
+        <div align="center">
+            A/C : {{ user.number }}
+            Available Amount : {{ user.amount }}
+        </div><br>
+
+        <form action="{% url 'transfer_money' %}" method="post">
+            {% csrf_token %}
+            <div>
+              <input type="number" name="t1" class="form-control" placeholder="Reciever Account Number" required>
+            </div><br>
+            <div>
+              <input type="number" name="t2" min="1" class="form-control" placeholder="Enter Amount" required>
+            </div><br>
+            <div>
+                <button type="submit" class="btn-danger" style="width: 100px">Transfer</button>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

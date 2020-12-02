@@ -1,0 +1,31 @@
+{% extends 'common.html' %}
+{% block common %}
+    {% load static %}
+    <br><br><br>
+    {% if messages %}
+        {% for x in messages %}
+            <div class="alert alert-primary" role="alert" align="center">
+              {{ x }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+
+    <div class="container" style="width: 500px">
+    <h2 style="text-align: center;color: blue;font-size: 30px">Sign-in</h2><br>
+        <form action="{% url 'login_check' %}" method="post">
+            {% csrf_token %}
+            <div>
+              <input type="number" name="t1" class="form-control" placeholder="Account Number" required>
+            </div><br>
+            <div>
+              <input type="password" name="t2" class="form-control" placeholder="Password" required>
+            </div><br>
+            <div>
+                <button type="submit" class="btn-primary" style="width: 100px">Login</button>
+                <a href="{% url 'register' %}">new user? generate account</a>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

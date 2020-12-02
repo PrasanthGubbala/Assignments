@@ -1,0 +1,36 @@
+{% extends 'common.html' %}
+{% block common %}
+    {% load static %}
+    <br><br>
+    <div class="container" style="width: 500px">
+    <h2 style="text-align: center;color: blue;font-size: 30px">Create New Account</h2><br>
+        <form action="{% url 'save_details' %}" method="post">
+            {% csrf_token %}
+            <div>
+              <input type="text" name="t1" class="form-control" placeholder="Holder Name" required>
+            </div><br>
+            <div>
+              <input type="number" name="t2" min="18"  max="100" class="form-control" placeholder="Age" required>
+            </div><br>
+            <div>
+              Gender: <input type="radio" name="t3" checked value="male">Male
+                      <input type="radio" name="t3" value="female">Female
+            </div><br>
+            <div>
+              <input type="number" name="t4" class="form-control" placeholder="Contact" required min="6666666666" max="9999999999">
+            </div><br>
+            <div>
+              <input type="password" name="t5" class="form-control" placeholder="Password" required>
+            </div><br>
+            <div>
+              <input type="password" name="t6" class="form-control" placeholder="Confirm Password" required>
+            </div><br>
+
+            <div>
+                <button type="submit" class="btn-primary" style="width: 150px">Create Account</button>
+                <a href="{% url 'login' %}">existing user? sign-in</a>
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

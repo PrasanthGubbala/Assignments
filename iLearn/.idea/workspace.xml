@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9abce2-a2a4-4362-98c2-f9eee11b69e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Covid_Analasys/dummy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iLearn_App/static/images/Slide 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iLearn_App/static/images/slide 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iLearn_App/static/images/slide 3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dummy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/lecture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/lecture_common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/lecture_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/lecture_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/lecture_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/schedule_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lecture/take_attendence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parents/parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parents/parent_common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parents/parent_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parents/parent_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parents/parent_register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/parents/student_progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/student_attendence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/student_common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/student_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/student_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students/student_register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5f9abce2-a2a4-4362-98c2-f9eee11b69e4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +38,22 @@
     </expand>
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2006393436">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -108,7 +77,7 @@
           <entry key="ilearn_app_studentregistration" value="11" />
           <entry key="ilearn_app_techerregistration" value="8" />
           <entry key="jpg" value="3" />
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -116,7 +85,7 @@
           <entry key="Database Element" value="38" />
           <entry key="HTML" value="60" />
           <entry key="Image" value="3" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -126,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iLearn/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
+            <state relative-caret-position="1025">
               <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
@@ -135,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iLearn/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="420">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding>
                 <element signature="e#307#331#0" expanded="true" />
               </folding>
@@ -147,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iLearn_App/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="373">
+              <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1605668825187" expanded="true" signature="4063:4071" ph="..." />
@@ -164,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iLearn_App/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -181,6 +150,14 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Python\Real Time Project\GitHub Repository\Assignments\iLearn</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -259,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,6 +268,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +278,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EmployeeDetails" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -368,9 +345,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13441296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1368421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -575,16 +551,6 @@
     <entry file="file://$PROJECT_DIR$/iLearn_App/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/iLearn_App/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/lecture/lecture_common.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -596,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#309#332#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
-          <folding>
-            <element signature="e#400#423#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,9 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#487#510#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,16 +620,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1223">
           <caret line="102" column="13" lean-forward="true" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#4;n#table#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iLearn/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
+        <state relative-caret-position="1025">
           <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
@@ -680,24 +633,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iLearn/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-          <folding>
-            <element signature="e#307#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iLearn_App/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="373">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1605668825187" expanded="true" signature="4063:4071" ph="..." />
             <marker date="1605668825187" expanded="true" signature="7976:8002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="981" column="6" selection-start-line="981" selection-start-column="6" selection-end-line="981" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iLearn_App/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iLearn/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#307#331#0" expanded="true" />
           </folding>
         </state>
       </provider>

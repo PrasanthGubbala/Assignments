@@ -1,7 +1,7 @@
 import tkinter
 import constants
 import game
-
+import sqlite3 as sql
 
 if __name__ == "__main__":
   
@@ -18,6 +18,8 @@ if __name__ == "__main__":
     tkinter.Button(buttons, text='Start', command=game.start).grid()
     tkinter.Button(buttons, text='Stop', command=game.clean).grid()
     tkinter.Button(buttons, text='Quit', command=root.destroy).grid()
+    tkinter.Button(buttons, text='Pause', command=game.pause).grid()
+    tkinter.Button(buttons, text='Play', command=game.play).grid()
 
     buttons.grid(column=0, row=0)
 
@@ -27,6 +29,8 @@ if __name__ == "__main__":
     tkinter.Label(scoreboard, textvariable=game.score.counter).grid()
     tkinter.Label(scoreboard, text='High Score').grid()
     tkinter.Label(scoreboard, textvariable=game.score.maximum).grid()
+    tkinter.Label(scoreboard, text='Leader Board').grid()
+    tkinter.Label(scoreboard, textvariable=game.score.leaderBoard).grid()
 
     scoreboard.grid(column=0, row=2)
 

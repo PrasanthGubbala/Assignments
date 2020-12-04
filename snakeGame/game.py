@@ -1,10 +1,11 @@
 import collections
 import tkinter
 import random
-
 import constants
 import shapes
 import utils
+import sqlite3 as sql
+import pygame
 
 
 class Master(tkinter.Canvas):
@@ -45,18 +46,51 @@ class Master(tkinter.Canvas):
                 self.mover.stop()
                 self.mover = Movement(self, vector)
 
+    def pause(self):
+        """start snake game"""
+        self.running = False
 
+    def play(self):
+        """start snake game"""
+        if not self.running:
+            # self.snake = Snake(self)
+            # self.obstacle = shapes.Obstacle(self)
+            # self.mover = Movement(self, random.choice(list(constants.direction_vectors.values())))
+            self.mover = Movement(self, random.choice(list(constants.direction_vectors.values())))
+            self.running = True
+
+scr = []
 class Scores:
     """Objects that keep track of the score and high score"""
     def __init__(self, master=None):
         self.counter = tkinter.StringVar(master, "0")
         self.maximum = tkinter.StringVar(master, "0")
+        self.leaderBoard = tkinter.StringVar(master, "0")
 
     def increment(self):
+        conn = sql.connect('leaderBoard.db')
+        cors = conn.cursor()
+        cors.execute('select * from leader_board')
+        res = cors.fetchall()
+        m = []
+        for x in res:
+            m.append(x[0])
+        conn.close()
+        m.sort(reverse=True)
+        self.leaderBoard.set(str(m[0]))
+
         score = int(self.counter.get()) + 1
         maximum = max(score, int(self.maximum.get()))
+        leaderBoard = int(self.leaderBoard.get())
+
         self.counter.set(str(score))
         self.maximum.set(str(maximum))
+
+        conn = sql.connect('leaderBoard.db')
+        cors = conn.cursor()
+        cors.execute("insert into leader_board values(?)",(maximum,))
+        conn.commit()
+        conn.close()
 
     def reset(self):
         self.counter.set("0")
@@ -109,4 +143,5 @@ class Movement:
     def stop(self):
         """stop the perpetual movement"""
         self.flag = False
+
 

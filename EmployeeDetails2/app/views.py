@@ -28,6 +28,13 @@ def admin_login_check(request):
         request.session['admin_status'] = False
         return render(request,'admin_login.html',{'message':'Loged Out Successfully'})
 
+
+def admin_dashboard(request):
+    users = EmployeeDetails.objects.all()
+    total = users.count()
+    return render(request, 'admin_dashboard.html', {'users': users, 'total': total})
+
+
 def change_to_active(request):
     b1 = request.POST.get('b1')
     user = EmployeeDetails.objects.get(username=b1)

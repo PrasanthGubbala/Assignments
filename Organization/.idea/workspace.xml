@@ -2,31 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b570f12-0f4a-473b-afcc-7a96ca92c3a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/common_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/dataSources/b7fa987e-5b83-495a-8098-3cf391cf0d81/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ScriptJson/script_json/static/csvFiles/coronavirus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ScriptJson/templates/csvFiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/static/biomedical-engineering.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iLearn/templates/students/biomedical_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Covid_Analasys/covid_analasys.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/EmployeeDetails/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/dummy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeDetails/templates/update_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails/templates/update_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/EmployeeDetails2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/EmployeeDetails2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/EmployeeDetails2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/EmployeeDetails2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/templates/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/templates/admin_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/templates/common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EmployeeDetails2/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeDetails2/templates/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/serializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RangeSlider/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeSlider/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RangeSlider/RangeSlider/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeSlider/RangeSlider/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RangeSlider/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RangeSlider/app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../iLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iLearn/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../iLearn/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iLearn/iLearn/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../iLearn/iLearn/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iLearn/iLearn_App/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../iLearn/iLearn_App/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iLearn/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../iLearn/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../iLearn/templates/students/student_common.html" beforeDir="false" afterPath="$PROJECT_DIR$/../iLearn/templates/students/student_common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snakeGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../snakeGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snakeGame/leaderBoard.db" beforeDir="false" afterPath="$PROJECT_DIR$/../snakeGame/leaderBoard.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,12 +75,13 @@
     <session id="-487516652">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,13 +89,13 @@
           <entry key="app_departments" value="1" />
           <entry key="app_employees_attendance_collection" value="1" />
           <entry key="app_organization" value="1" />
-          <entry key="py" value="3" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="3" />
-          <entry key="Python" value="3" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -107,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Organization/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="1050">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="e#313#337#0" expanded="true" />
               </folding>
@@ -116,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Organization/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="270">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding>
                 <element signature="e#636#668#0" expanded="true" />
               </folding>
@@ -131,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="50">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -140,11 +148,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/serializer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="425">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <marker date="1601900700741" expanded="true" signature="239:244" ph="..." />
@@ -170,10 +190,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Organization/settings.py" />
-        <option value="$PROJECT_DIR$/Organization/urls.py" />
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/serializer.py" />
+        <option value="$PROJECT_DIR$/Organization/urls.py" />
       </list>
     </option>
   </component>
@@ -219,6 +239,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,16 +252,22 @@
               <item name="Organization" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Organization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Organization" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/eurofine" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -298,9 +325,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1854251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20728745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,30 +378,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/rest_framework/routers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Organization/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="1050">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="e#313#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Organization/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="50">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -384,7 +407,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="775">
           <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -394,12 +417,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/serializer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        <state relative-caret-position="425">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <marker date="1601900700741" expanded="true" signature="239:244" ph="..." />
             <marker date="1601900700741" expanded="true" signature="986:991" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Organization/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
           </folding>
         </state>
       </provider>

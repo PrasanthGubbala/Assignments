@@ -45,6 +45,7 @@ urlpatterns += [
     path('student_home/',views.student_home,name='student_home'),
     path('student_attendence/',views.student_attendence,name='student_attendence'),
     path('student_profile/',views.student_profile,name='student_profile'),
+    path('biomedical_course/',views.biomedical_course,name='biomedical_course'),
 ]
 
 #parent module

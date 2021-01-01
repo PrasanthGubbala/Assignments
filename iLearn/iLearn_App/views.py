@@ -184,7 +184,8 @@ def student_profile(request):
     res = StudentRegistration.objects.get(id=id)
     return render(request, 'students/student_profile.html', {'data': res})
 
-
+def biomedical_course(request):
+    return render(request,'students/biomedical_course.html')
 
 
 

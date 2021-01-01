@@ -21,4 +21,5 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.slider,name='slider'),
+    path('json_data/',views.json_data,name='json_data'),
 ]

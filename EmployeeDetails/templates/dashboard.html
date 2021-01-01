@@ -1,7 +1,18 @@
 {% extends 'common.html' %}
 {% block common %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-
+{% if message %}
+        <div class="alert alert-success" role="alert" align="center">
+          {{ message }}
+        </div>
+    {% endif %}
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-success" role="alert" align="center">
+           {{ x }}
+        </div>
+    {% endfor %}
+{% endif %}
 
 <div class="container">
     <canvas id="myChart"></canvas>
@@ -54,17 +65,4 @@
         options: {}
     });
 </script>
-
-    {% if message %}
-        <div class="alert alert-success" role="alert" align="center">
-          {{ message }}
-        </div>
-    {% endif %}
-    {% if messages %}
-      {% for x in messages %}
-          <div class="alert alert-success" role="alert" align="center">
-              {{ x }}
-          </div>
-      {% endfor %}
-    {% endif %}
 {% endblock %}

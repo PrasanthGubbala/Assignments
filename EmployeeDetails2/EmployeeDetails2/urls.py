@@ -16,18 +16,20 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+
 from app import views
 #admin operations
 urlpatterns = [
     #path('admin/', admin.site.urls),
     path('admin/',views.admin,name='admin'),
     path('admin_login_check/',views.admin_login_check,name='admin_login_check'),
+    path('admin_dashboard/',views.admin_dashboard,name='admin_dashboard'),
     path('change_to_active/',views.change_to_active,name='change_to_active'),
     path('change_to_deactive/',views.change_to_deactive,name='change_to_deactive'),
     path('change_to_delete/',views.change_to_delete,name='change_to_delete'),
     path('after_delete/',views.after_delete,name='after_delete'),
-
  ]
+
 
 #user operations
 urlpatterns +=[
@@ -41,10 +43,10 @@ urlpatterns +=[
     path('user/<str:pk>',views.user,name='user'),
     path('change_password/',views.change_password,name='change_password'),
 
+
 #forgot password
     path('forgot_password/',views.forgot_password,name='forgot_password'),
     path('send_otp_to_email/',views.send_otp_to_email,name='send_otp_to_email'),
     path('submit_otp/',views.submit_otp,name='submit_otp'),
     path('save_new_password/',views.save_new_password,name='save_new_password'),
-
 ]

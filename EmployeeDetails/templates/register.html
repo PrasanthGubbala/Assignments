@@ -1,5 +1,13 @@
 {% extends 'common.html' %}
 {% block common %}
+{% if messages %}
+    {% for x in messages %}
+        <div class="alert alert-warning" role="alert" align="center">
+          {{ x }}
+        </div>
+    {% endfor %}
+{% endif %}
+
 <div class="table-bordered">
     <h4 align="center" style="color: blue"><u>Register Here</u></h4>
 
@@ -27,13 +35,7 @@
     </div>
 </form>
 </div>
-{% if messages %}
-    {% for x in messages %}
-        <div class="alert alert-warning" role="alert" align="center">
-          {{ x }}
-        </div>
-    {% endfor %}
-{% endif %}
+
 
 
 <script>

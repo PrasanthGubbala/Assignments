@@ -1,0 +1,39 @@
+{% extends 'common.html' %}
+{% block common %}
+    {% load static %}
+<br><br><br>
+   <div class="container row">
+       <div class="col-lg-1" style="padding-right: 700px">
+            <img src="{% static 'images/ss logo.png' %}" style="padding-top: 50px">
+       </div>
+
+       <div class="col-lg-2" style="width: 500px;background-color: silver">
+
+              <div class="form-row" style="padding-top: 50px">
+                <form>
+                    <div class="col">
+                      <input type="text" name="t1" class="form-control" placeholder="Username or Email" required style="height: 50px">
+                    </div>
+                      <br>
+                    <div class="col">
+                      <input type="password" name="t2" class="form-control" placeholder="Password" required style="height: 50px">
+                    </div>
+                    <br>
+                    <div class="col">
+                        <button type="submit" class="form-control btn-primary" style="font-size: 25px;border-radius: 5px">Log In</button>
+                    </div>
+                </form>
+                  <br>
+                    <div class="col" align="center">
+                        <a href="#" style="text-decoration: none">Forgotten Password?</a>
+                    </div><hr>
+                    <div class="col" align="center" style="padding-bottom: 15px">
+                        <a href="{% url 'signup' %}">
+                            <button type="submit" class="btn-success" style="font-size: 15px">Create New Account</button>
+                        </a>
+                    </div>
+              </div>
+       </div>
+   </div>
+
+{% endblock %}
